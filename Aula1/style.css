@@ -1,0 +1,55 @@
+body {
+    min-height: 400px;
+    font-size: 21px;
+    font-family: monospace;
+    background-color: #191724;
+    color: #e0def4;
+}
+
+.container {
+    /* height: 100vh; */
+    padding: 100px;
+    text-align: center;
+}
+
+.page-title {
+    margin: 0 0 5px;
+}
+
+.page-subtitle {
+    margin-top: 5px;
+}
+
+label {
+    padding: 10px;
+    margin-right: -20px;
+    background-color: #1f1d2e;
+    font-weight: 700;
+    color: #31748f;
+}
+
+.notas {
+    margin:20px;
+    height: 32px;
+    width: 100px;
+}
+
+.btn-submit, .btn-new {
+    padding: 10px;
+    color: #e0def4;
+    border: 1px solid #6e6a86;
+    border-radius: 3px;
+    background-color: #1f1d2e;
+    cursor: pointer;
+    text-transform: uppercase;
+    margin-bottom: 40px;
+}
+.btn-submit {
+    background-color: #31748f;
+    border: #31748f;
+}
+
+#notafinal {
+    margin-top: 40px;
+    font-size: 24px;
+}

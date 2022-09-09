@@ -1,0 +1,38 @@
+<!-- 
+    Imersão Dev Alura 
+    Aula 1
+    Calculadora de Média
+    @sammid37
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imersão Dev Alura - Aula 1</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1 class="page-title">Calculadora de Média</h1>
+        <p class="page-subtitle">Descubra a sua média final.</p>
+
+        <label for="n1">Nota 1</label>
+        <input type="number" name="" id="n1" class="notas"><br>
+        <label for="n2">Nota 2</label>
+        <input type="number" name="" id="n2" class="notas"><br>
+        <label for="n3">Nota 3</label>
+        <input type="number" name="" id="n3" class="notas"><br>
+        <br>
+        <input type="button" value="Inserir nova nota" class="btn-new">
+        <input type="button" value="Calcular" class="btn-submit" onclick="calcular()"><br>
+
+        <span id="notafinal"></span>
+        <br>
+        <span id="situacao"></span>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
